@@ -52,6 +52,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+yolov5/
 
 # Translations
 *.mo
