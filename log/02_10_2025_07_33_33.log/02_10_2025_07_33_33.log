@@ -1,0 +1,21 @@
+[ 2025-02-10 07:33:33,180 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2025-02-10 07:33:33,180 ] root - INFO - Getting tthe data from URL
+[ 2025-02-10 07:33:33,180 ] root - INFO - Entered inittiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-10 07:33:33,181 ] root - INFO - Downloading data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_10_2025_07_33_33\data_ingestion\Sign_language_data.zip
+[ 2025-02-10 07:33:35,630 ] root - INFO - Downloaded data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_10_2025_07_33_33\data_ingestion\Sign_language_data.zip
+[ 2025-02-10 07:33:36,008 ] root - INFO - Extracted zip file: artifacts\02_10_2025_07_33_33\data_ingestion\Sign_language_data.zip into folder: artifacts\02_10_2025_07_33_33\data_ingestion\feature_store
+[ 2025-02-10 07:33:36,008 ] root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-10 07:33:36,008 ] root - INFO - Data Ingestion Artifact: DataIngestionArtifact(feature_store_path='artifacts\\02_10_2025_07_33_33\\data_ingestion\\feature_store', data_zip_file_path='artifacts\\02_10_2025_07_33_33\\data_ingestion\\Sign_language_data.zip')
+[ 2025-02-10 07:33:36,008 ] root - INFO - Got the data from the URL
+[ 2025-02-10 07:33:36,008 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2025-02-10 07:33:36,008 ] root - INFO - Entered the start_data_validation method of TrainPipeline class
+[ 2025-02-10 07:33:36,008 ] root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2025-02-10 07:33:36,012 ] root - INFO - Exited initiate_data_validation method of Data_Validation class
+[ 2025-02-10 07:33:36,012 ] root - INFO - Data Vaklidation Artifact: <class 'signLanguage.entity.artifacts_entity.DataValidationArtifact'>
+[ 2025-02-10 07:33:36,026 ] root - INFO - Performed the data validation operation
+[ 2025-02-10 07:33:36,026 ] root - INFO - Exited the start_data_validation method of TrainPipeline class
+[ 2025-02-10 07:33:36,027 ] root - INFO - Entered initiate_model_trainer method of ModelTrainer class
+[ 2025-02-10 07:33:36,027 ] root - INFO - Unzipping data
+[ 2025-02-10 07:33:38,826 ] root - INFO - Read Yaml file Successfully
+[ 2025-02-10 07:42:22,293 ] root - INFO - Exited initiate_model_trainer method of ModelTrainer class
+[ 2025-02-10 07:42:22,301 ] root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='yolov5/best.pt')
