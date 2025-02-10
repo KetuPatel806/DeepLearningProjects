@@ -1,0 +1,12 @@
+[ 2025-02-10 03:07:58,458 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2025-02-10 03:07:58,458 ] root - INFO - Getting tthe data from URL
+[ 2025-02-10 03:07:58,458 ] root - INFO - Entered inittiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-10 03:07:58,459 ] root - INFO - Downloading data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_10_2025_03_07_58\data_ingestion\Sign_language_data.zip
+[ 2025-02-10 03:08:01,795 ] root - INFO - Downloaded data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_10_2025_03_07_58\data_ingestion\Sign_language_data.zip
+[ 2025-02-10 03:08:02,197 ] root - INFO - Extracted zip file: artifacts\02_10_2025_03_07_58\data_ingestion\Sign_language_data.zip into folder: artifacts\02_10_2025_03_07_58\data_ingestion\feature_store
+[ 2025-02-10 03:08:02,197 ] root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-10 03:08:02,198 ] root - INFO - Data Ingestion Artifact: DataIngestionArtifact(feature_store_path='artifacts\\02_10_2025_03_07_58\\data_ingestion\\feature_store', data_zip_file_path='artifacts\\02_10_2025_03_07_58\\data_ingestion\\Sign_language_data.zip')
+[ 2025-02-10 03:08:02,198 ] root - INFO - Got the data from the URL
+[ 2025-02-10 03:08:02,198 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2025-02-10 03:08:02,198 ] root - INFO - Entered the start_data_validation method of TrainPipeline class
+[ 2025-02-10 03:08:02,198 ] root - INFO - Entered initiate_data_validation method of Data_Validation class

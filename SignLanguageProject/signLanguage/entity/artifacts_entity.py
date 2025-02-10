@@ -4,3 +4,7 @@ from dataclasses import dataclass
 class DataIngestionArtifact:
     feature_store_path: str
     data_zip_file_path: str
+
+@dataclass
+class DataValidationArtifact:
+    validation_status: bool
