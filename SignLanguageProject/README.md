@@ -8,6 +8,26 @@
 - Artifact_entity
 - Components
 - Pipeline
+- app.py
+
+## Project Configuration
+```bash
+install AWS CLI from the following Link
+
+https://awscli.amazonaws.com/AWSCLIV2.msi
+```
+
+```bash
+## Configure AWS Crediential(secret Key & Access Key)
+
+aws configure 
+```
+
+```bash
+## Create a s3 bucket for model pusher name is mentioned inside in the constant
+```
+
+
 
 ## How to run:
 
@@ -23,5 +43,7 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
-
+```bash
+python app.py
+```
 
