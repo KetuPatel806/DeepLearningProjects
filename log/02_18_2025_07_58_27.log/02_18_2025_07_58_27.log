@@ -1,0 +1,30 @@
+[ 2025-02-18 07:58:33,363 ] botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[ 2025-02-18 07:58:34,182 ] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2025-02-18 07:58:34,182 ] root - INFO - Getting tthe data from URL
+[ 2025-02-18 07:58:34,182 ] root - INFO - Entered inittiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-18 07:58:34,183 ] root - INFO - Downloading data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_18_2025_07_58_27\data_ingestion\Sign_language_data.zip
+[ 2025-02-18 07:58:37,789 ] root - INFO - Downloaded data from: https://github.com/entbappy/Branching-tutorial/raw/master/Sign_language_data.zip into file: artifacts\02_18_2025_07_58_27\data_ingestion\Sign_language_data.zip
+[ 2025-02-18 07:58:38,179 ] root - INFO - Extracted zip file: artifacts\02_18_2025_07_58_27\data_ingestion\Sign_language_data.zip into folder: artifacts\02_18_2025_07_58_27\data_ingestion\feature_store
+[ 2025-02-18 07:58:38,179 ] root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2025-02-18 07:58:38,179 ] root - INFO - Data Ingestion Artifact: DataIngestionArtifact(feature_store_path='artifacts\\02_18_2025_07_58_27\\data_ingestion\\feature_store', data_zip_file_path='artifacts\\02_18_2025_07_58_27\\data_ingestion\\Sign_language_data.zip')
+[ 2025-02-18 07:58:38,179 ] root - INFO - Got the data from the URL
+[ 2025-02-18 07:58:38,179 ] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2025-02-18 07:58:38,179 ] root - INFO - Entered the start_data_validation method of TrainPipeline class
+[ 2025-02-18 07:58:38,179 ] root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2025-02-18 07:58:38,181 ] root - INFO - Exited initiate_data_validation method of Data_Validation class
+[ 2025-02-18 07:58:38,182 ] root - INFO - Data Vaklidation Artifact: <class 'signLanguage.entity.artifacts_entity.DataValidationArtifact'>
+[ 2025-02-18 07:58:38,191 ] root - INFO - Performed the data validation operation
+[ 2025-02-18 07:58:38,191 ] root - INFO - Exited the start_data_validation method of TrainPipeline class
+[ 2025-02-18 07:58:38,191 ] root - INFO - Entered initiate_model_trainer method of ModelTrainer class
+[ 2025-02-18 07:58:38,191 ] root - INFO - Unzipping data
+[ 2025-02-18 07:58:41,352 ] root - INFO - Read Yaml file Successfully
+[ 2025-02-18 08:08:41,314 ] root - INFO - Exited initiate_model_trainer method of ModelTrainer class
+[ 2025-02-18 08:08:41,337 ] root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='yolov5/best.pt')
+[ 2025-02-18 08:08:41,395 ] root - INFO - Entered initiate_model_pusher method of Modelpusher class
+[ 2025-02-18 08:08:41,400 ] root - INFO - Entered the upload_file method of S3Operations class
+[ 2025-02-18 08:08:41,400 ] root - INFO - Uploading yolov5/best.pt file to best.pt file in sign-language-bucket-s3 bucket
+[ 2025-02-18 08:08:47,617 ] root - INFO - Uploaded yolov5/best.pt file to best.pt file in sign-language-bucket-s3 bucket
+[ 2025-02-18 08:08:47,617 ] root - INFO - Remove is set to False, not deleted the file
+[ 2025-02-18 08:08:47,617 ] root - INFO - Exited the upload_file method of S3Operations class
+[ 2025-02-18 08:08:47,618 ] root - INFO - Uploaded best model to s3 bucket
+[ 2025-02-18 08:08:47,618 ] root - INFO - Exited initiate_model_pusher method of ModelTrainer class

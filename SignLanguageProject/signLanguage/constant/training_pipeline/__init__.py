@@ -35,3 +35,9 @@ MODEL_TRAINER_PRETRAINED_WEIGHT_NAME = "yolov5s.pt"
 MODEL_TRAINER_BATCH_SIZE = 16
 
 MODEL_TRAINER_NUM_EPOCHS = 5
+
+""""
+MODEL PUSHER related constant start with MODEL_PUSHER_VAR_NAME
+"""
+BUCKET_NAME = "sign-language-bucket-s3"
+S3_MODEL_NAME = "best.pt"
